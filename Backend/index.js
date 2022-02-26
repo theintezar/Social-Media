@@ -62,7 +62,6 @@ app.use("/api/posts", postRoute)
 
 
 
-
 app.listen(process.env.PORT, ()=>{
     console.log(`${process.env.PORT} running`)
 })
