@@ -63,7 +63,7 @@ app.use("/api/posts", postRoute)
 
 
 
-app.listen(1006, ()=>{
-    console.log("1006 running")
+app.listen(process.env.PORT, ()=>{
+    console.log(`${process.env.PORT} running`)
 })
 //yo0eZhKIiyYSH6LM
